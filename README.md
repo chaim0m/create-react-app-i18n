@@ -3,9 +3,9 @@
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> This project is an example with two implementations of how to combine hard coded language files with dynamically loaded ones.
-> Checkout (pun intended) the `pass_setterFunc_implementation` (this is now master as well) branch for one and the `redux_implementation` branch for the other.
-> See the forked repo for the original code that handles static translation files only.
+- This project is an example with two implementations of how to combine hard coded language files with dynamically loaded ones.
+ Checkout (pun intended) the `pass_setterFunc_implementation` (this is now master as well) branch for one and the `redux_implementation` branch for the other.
+- See the forked repo for the original code that handles static translation files only.
 
 ### ✨ [Demo](import the branch you want to use to codesandbox for  demo)
 
