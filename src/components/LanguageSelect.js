@@ -3,13 +3,8 @@ import React, { useContext } from "react";
 import { I18nContext } from "../i18n";
 
 const LanguageSelect = props => {
-  const { dispatch } = useContext(I18nContext);
-
-  const onLanguageSelect = e => {
-    dispatch({ type: "setLanguage", payload: e.target.value })
-  }
+  const { setLanguage  } = useContext(I18nContext);
    
-
   const renderOption = code => (
     <option value={code}>
       {code}
@@ -17,7 +12,7 @@ const LanguageSelect = props => {
   );
 
   return (
-    <select onChange={onLanguageSelect}>
+    <select onChange={(e) => setLanguage(e.target.value)}>
       {renderOption("en")}
       {renderOption("tr")}
       {renderOption("es")}

@@ -6,8 +6,8 @@ import { I18nContext } from "./i18n";
 import LanguageSelect from "./components/LanguageSelect";
 
 const App = () => {
-  const { translate, loading } = useContext(I18nContext);
-
+  const { state } = useContext(I18nContext);
+  const {translate, loading} = state
   return (
     <div className="App">
       <header className="App-header">
