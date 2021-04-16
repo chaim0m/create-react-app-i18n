@@ -4,6 +4,7 @@
 </p>
 
 > This project is an example with two implementations of how to combine hard coded language files with dynamically loaded ones.
+> Checkout (pun intended) the `pass_setterFunc_implementation` branch for one and the `redux_implementation` branch for the other.
 
 ### ✨ [Demo](import the branch you want to use to codesandbox for  demo)
 
